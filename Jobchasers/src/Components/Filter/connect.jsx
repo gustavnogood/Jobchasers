@@ -1,8 +1,8 @@
 import { connect } from "react-redux";
-import setVisibilityFilter from "../../actions/filter";
+import { setVisibilityFilter } from "../../actions/filter";
 import Filter from "./Filter.jsx";
 
-const getFilterJobs = data => {
+const getFilterTags = data => {
     let arrTags = ["Rensa"];
     data.forEach(item =>{
         if (arrTags.indexOf(item.tag) === -1) {
@@ -13,12 +13,12 @@ const getFilterJobs = data => {
 };
 
 const mapStateToProps = state => ({
-    tags: getFilterJobs(state.data),
+    tags: getFilterTags(state.data.tag),
     active: state.visibilityFilter
 });
 
 const mapDispatchToProps = dispatch => ({
-    onClickHandler: tags => dispatch(setVisibilityFilter(tags))
+    onClickHandler: (tag) => dispatch(setVisibilityFilter(tag))
 });
 
 export default connect (

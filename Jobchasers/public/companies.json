@@ -7,7 +7,7 @@
         "date": "2023/02/27",
         "typeOfEmployment": "Full Time",
         "logoLink": "https://commons.wikimedia.org/wiki/File:Svenska_Spel_Logo.svg",
-        "category": ["Betting", "Office", "Store"]
+        "tag": ["Betting", "Office", "Store"]
     },
     {
         "companyName": "Nordea",
@@ -17,7 +17,7 @@
         "date": "2023/03/01",
         "typeOfEmployment": "Consulting",
         "logoLink": "https://commons.wikimedia.org/wiki/File:Nordea_logo.svg",
-        "category": ["Office", "Bank"]
+        "tag": ["Office", "Bank"]
     },
     {
         "companyName": "Webhallen",
@@ -27,7 +27,7 @@
         "date": "2023/03/11",
         "typeOfEmployment": "Part Time",
         "logoLink": "https://commons.wikimedia.org/wiki/File:Logotyp_2021.png",
-        "category": ["Store"]
+        "tag": ["Store"]
     },
     {
         "companyName": "Chas",
@@ -37,6 +37,6 @@
         "date": "2023/02/20",
         "typeOfEmployment": "Consulting",
         "logoLink": "https://www.businessawardseurope.com/images/news/27649/chas_visual_management__medium.jpg",
-        "category": ["Office"]
+        "tag": ["Office"]
     }
 ]

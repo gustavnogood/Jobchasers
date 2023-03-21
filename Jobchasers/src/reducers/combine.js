@@ -1,8 +1,8 @@
 import { combineReducers } from "redux";
-import data from "./data";
-import visibilityFilter from "./visibilityFilter";
+import fetchData from './data';
+import visibilityFilter from './visibilityFilters';
 
 export default combineReducers({
-  data,
+  fetchData,
   visibilityFilter
 });

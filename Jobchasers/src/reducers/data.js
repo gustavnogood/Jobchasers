@@ -3,7 +3,12 @@ import axios from 'axios'
  */
 
 
-axios
+const fetchData = () => {
+
+ return axios
   .get("/public/companies.json")
   .then((res) => console.log(res.data))
   .catch((err) => console.log(err));
+};
+
+  export default fetchData

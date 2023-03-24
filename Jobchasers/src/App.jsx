@@ -1,12 +1,14 @@
 import React from "react";
 import "./App.css";
+import FreeSearch from "./Components/FreeSearch";
 import Search from "./Components/Search";
 
 function App() {
   return (
     <div className="App">
       <div>
-        <Search />
+        <FreeSearch />
+        {/* <Search /> */}
       </div>
     </div>
   );

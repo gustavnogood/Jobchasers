@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import companies from "../companies.json";
-import spel from "../assets/images/svenska-spel.jpeg";
+// import { GoSearch } from "react-icons/fa";
 
 const FreeSearch = () => {
   const [query, setQuery] = useState("");
@@ -15,11 +15,16 @@ const FreeSearch = () => {
   const filteredData = companies.filter(SearchByText);
   return (
     <div>
+      <header></header>
       <input
+        className="search-box"
         type="text"
         value={query}
         onChange={(e) => setQuery(e.target.value)}
       />
+      {/* <div>
+        <GoSearch />
+      </div> */}
       <ul>
         {filteredData.map((item) => (
           <div className="job-card" key={item.id}>

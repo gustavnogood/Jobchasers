@@ -1,6 +1,4 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
-
 
 * {
   margin: 0;
@@ -63,8 +61,7 @@ header {
   margin: 50px auto;
 }
 .company {
-    font-family: 'Lato', sans-serif;
-
+font-family: 'Lato', sans-serif;
   display: flex;
   flex: 1 120px;
   flex-direction: column;
@@ -72,8 +69,7 @@ header {
   align-items: center;
 }
 .job-details {
-    font-family: 'Lato', sans-serif;
-
+  font-family: 'Lato', sans-serif;
   display: flex;
   flex: 5 120px;
   flex-direction: column;
@@ -84,7 +80,7 @@ header {
 }
 
 .description {
-    font-family: 'Lato', sans-serif;
+  font-family: 'Lato', sans-serif;
 
 }
 

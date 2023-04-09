@@ -3,7 +3,6 @@ import React from "react";
 function JobList({ jobs }) {
   return (
     <div>
-      <ul>
         {jobs.map((job) => (
           <div className="job-card" key={job.id}>
             <div className="company">
@@ -22,7 +21,6 @@ function JobList({ jobs }) {
             </div>
           </div>
         ))}
-      </ul>
     </div>
   );
 }
